@@ -1,0 +1,7 @@
+Query:
+  type: object
+  config:
+    fields: 
+      wtf:
+        type: "String"
+        resolve: '@=resolver("App\\GraphQL\\Resolver\\TestResolver::test")'
